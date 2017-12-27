@@ -8,9 +8,10 @@ int m = 0;
 
 void add(int pole[4][4]) {
 	int i = rand() % 4, j = rand() % 4, k = rand() % 10;
-	if ((pole[i][j] == 0) && (k == 1)) pole[i][j] = 4;
-	else if (pole[i][j] == 0) pole[i][j] = 2;
-	else add(pole);
+	if ((pole[i][j] == 0) {
+	    if (k == 1)) pole[i][j] = 4;
+	else pole[i][j] = 2;
+	}
 }
 
 void left(int pole[4][4]) {
